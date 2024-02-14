@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Downloader</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+    <style>
+        /* Custom styles for transparent card */
+        
+        .transparent-card {
+            background-color: rgba(123, 32, 250, 0.1);
+            border: none;
+        }
+        
+        .transparent-card .card-header {
+            background-color: rgba(181, 144, 177, 0.285);
+            border-bottom: none;
+        }
+        
+        .transparent-card .card-body {
+            color: #000000;
+            /* Set text color to white */
+        }
+        
+        .transparent-card .nav-tabs .nav-link.active {
+            color: #000;
+            border-color: #fff;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #171119, #200b59);
+            color: #000;
+        }
+        
+        .tab-content {
+            padding: 20px;
+            color: #000;
+        }
+        
+        .footer {
+            background: linear-gradient(135deg, #d9dcd2, #c26ff5);
+            color: #000000;
+        }
+        
+        .social-links a img {
+            filter: brightness(1.2);
+        }
+        
+        .nav-tabs .nav-link {
+            color: #8103ff;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: #000;
+            background: linear-gradient(135deg, #9084fd, #fefefd);
+            border-color: #fff;
+        }
+        
+        .btn-primary {
+            background-color: #270017;
+            border-color: #000;
+        }
+        
+        .btn-primary:hover {
+            background-color: #f3f3f3;
+            border-color: #f26bca;
+            color: #000;
+        }
+        
+        .card-body.main {
+            padding: 5%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .card-body.main h2 {
+            color: #000;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .card-body.main p {
+            color: #4e06e0;
+        }
+        
+        .btn-primary {
+            text-shadow: none;
+        }
+        
+        .nav-tabs2 .nav-link.active {
+            color: #000;
+            background-color: rgba(24, 7, 7, 0.1);
+            border: #dbd1f4 solid 2px;
+            border-bottom: transparent;
+        }
+        
+        .nav-tabs2 .nav-link {
+            color: #8103ff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="true" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="notes.html">Notes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body main" style=" background: linear-gradient(135deg, #e9aef8, #96ff88);">
+            <div class="container card1 mt-4" style="border-radius: 5px;">
+                <div class="card transparent-card">
+                    <div class="card-header">
+                        <ul class="nav new nav-tabs2 card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="physics-tab" data-toggle="tab" href="#physics" role="tab" aria-controls="physics" aria-selected="true">Physics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="chemistry-tab" data-toggle="tab" href="#chemistry" role="tab" aria-controls="chemistry" aria-selected="false">Chemistry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="biology-tab" data-toggle="tab" href="#biology" role="tab" aria-controls="biology" aria-selected="false">Biology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="physics" role="tabpanel" aria-labelledby="physics-tab">
+                                <h3>Physics Notes</h3>
+                                <div class="card">
+                                    <div class="card-header">Mindmaps</div>
+                                    <div class="card-body " style="font-size: 12px;">
+
+                                        <div style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; " class="row">
+                                            <div class="col">
+                                                <p>Physics Handbook</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Handbook _ Physics __ Arjuna JEE 2023.pdf">
+                                                    <button class="btn btn-primary">Download</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 1: Physical World -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 1: Physical World</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="not_available.html">
+                                                    <button class="btn btn-primary">Download</button>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 2: Units and Measurements -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 2: Units and Measurements</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Units & Measurements  _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 3: Motion in a Straight Line -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 3: Motion in a Straight Line</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Motion Along A Straight Line _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 4: Motion in a Plane -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 4: Motion in a Plane</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Motion In A Plane _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 5: Laws of Motion -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 5: Laws of Motion</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Laws Of Motion _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 6: Work, Energy, and Power -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 6: Work, Energy, and Power</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Work, Energy & Power _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 7: System of Particles and Rotational Motion -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 7: System of Particles and Rotational Motion</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Rotational Motion _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 8: Gravitation -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 8: Gravitation</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Gravitation _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 9: Mechanical Properties of Solids -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 9: Mechanical Properties of Solids</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Mechanics Of Solids _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 10: Mechanical Properties of Fluids -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 10: Mechanical Properties of Fluids</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Fluid Mechanics _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 11: Thermal Properties of Matter -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 11: Thermal Properties of Matter</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Thermal Properties Of Matter _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 12: Thermodynamics -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 12: Thermodynamics</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Thermodynamics _ Mind Maps __ (Arjuna JEE 2023) (1).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 13: Kinetic Theory -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 13: Kinetic Theory</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Kinetic Theory Of Gas _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 14: Oscillations -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 14: Oscillations</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Oscillations _ _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 15: Waves -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 15: Waves</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/PHY/Waves _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="font-size: 12px;" class="tab-pane fade" id="chemistry" role="tabpanel" aria-labelledby="chemistry-tab">
+                                <h3>Chemistry Notes</h3>
+
+                                <div class="card">
+                                    <div class="card-header">Mindmaps</div>
+                                    <div class="card-body">
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p>Physics Handbook</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Handbook _ Chemistry __ Arjuna JEE 2023.pdf">
+                                                    <button class="btn btn-primary">Download</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <!-- Chapter 1: Some Basic Concepts of Chemistry -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 1: Some Basic Concepts of Chemistry</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Some Basic Concept of Chemistry _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <!-- Chapter 2: Structure of Atom -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 2: Structure of Atom</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Structure of Atom _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <!-- Chapter 3: Classification of Elements and Periodicity in Properties -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 3: Classification of Elements and Periodicity in Properties</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Classification of Elements and Periodicity in Properties _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <!-- Chapter 4: Chemical Bonding and Molecular Structure -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 4: Chemical Bonding and Molecular Structure</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="no" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+
+
+                                        <!-- Chapter 6: Thermodynamics -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 5: Thermodynamics</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Thermodynamics _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <!-- Chapter 7: Equilibrium -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 6: Equilibrium I</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Ionic Equilibrium _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 6: Equilibrium II</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Chemical Equilibrium _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter 8: Redox Reactions -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 7: Redox Reactions</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Redox Reactions _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <!-- Chapter 9: Hydrogen -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 8 : GOC analysis part</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Qualitative & Quantitative Analysis Of Organic Compound _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 8 : GOC Aromatic substitution</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Electrophilic Aromatic Substitution _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- Chapter  The s-Block Elements -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 9: Hydrocarbon Alkenes</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Alkenes _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 9: Hydrocarbon Alkynes- Terminal</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Alkynes Terminal _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Chapter 9: Hydrocarbon Alkynes- Non Terminal</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Mindmap/CHEM/Alkynes (Non Terminal) _ Mind Maps __ (Arjuna JEE 2023).pdf" target="_blank">
+                                                    <button class="btn btn-primary">Download</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p style="color: red; font-size: 9px;">some chapters are missing cause those pdf's were not found on internet.</p>
+                                        <!-- Add more chapters as needed -->
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="tab-pane fade" id="biology" role="tabpanel" aria-labelledby="biology-tab">
+                                <h3>Biology Notes</h3>
+                                <p>Here you will find all the Biology notes.</p>
+                                <p>Coming sooon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>&copy; 2024 Notes Downloader</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links ">
+                            <a href=""><img width="40px" style="padding-left:10px;" src="fb.png" alt=""></a>
+                            <a href=""><img width=40px style="padding-left: 10px;" src="ig.png" alt=""></a>
+                            <a href=""><img width=40px style="padding-left: 10px;" src="wp.png" alt=""></a>
+                            <a href=""><img width=40px style="padding-left: 10px;" src="web.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
