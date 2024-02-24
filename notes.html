@@ -10,6 +10,10 @@
     <style>
         /* Custom styles for transparent card */
         
+        .col-auto {
+            margin: 0px;
+        }
+        
         .transparent-card {
             background-color: rgba(123, 32, 250, 0.1);
             border: none;
@@ -71,7 +75,7 @@
         }
         
         .card-body.main {
-            padding: 5%;
+            padding: 5vw;
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
         }
@@ -98,6 +102,112 @@
         
         .nav-tabs2 .nav-link {
             color: #8103ff;
+        }
+        
+        .btn {
+            margin: 5px;
+        }
+        /* Custom styles for transparent card */
+        
+        .transparent-card {
+            background-color: rgba(123, 32, 250, 0.1);
+            border: none;
+        }
+        
+        .transparent-card .card-header {
+            background-color: rgba(181, 144, 177, 0.285);
+            border-bottom: none;
+        }
+        
+        .transparent-card .card-body {
+            color: #000000;
+            /* Set text color to white */
+        }
+        
+        .transparent-card .nav-tabs .nav-link.active {
+            color: #000;
+            border-color: #fff;
+        }
+        /* Make the card body fill the full width of its container */
+        
+        .card-body {
+            width: 100%;
+        }
+        /* Use media queries to adjust styles based on screen size */
+        
+        body,
+        footer {
+            background: linear-gradient(135deg, #171119, #200b59);
+            color: #000;
+        }
+        /* Style the tab content */
+        
+        .tab-content {
+            padding: 0px;
+            color: #000;
+        }
+        /* Style the social links */
+        
+        .social-links a img {
+            filter: brightness(1.2);
+        }
+        /* Style the nav tabs */
+        
+        .nav-tabs .nav-link {
+            color: #8103ff;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: #000;
+            background: linear-gradient(135deg, #9084fd, #fefefd);
+            border-color: #fff;
+        }
+        /* Style the primary buttons */
+        
+        .btn-primary {
+            background-color: #270017;
+            border-color: #000;
+        }
+        
+        .btn-primary:hover {
+            background-color: #f3f3f3;
+            border-color: #f26bca;
+            color: #000;
+        }
+        /* Style the main card body */
+        
+        .card-body.main {
+            padding: 5%;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        /* Style the footer */
+        
+        footer {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Style the footer links */
+        
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color: #f26bca;
+        }
+        
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            width: 100%;
+            padding-right: 2px;
+            padding-left: 2px;
+            margin-right: auto;
+            margin-left: auto;
         }
     </style>
 
@@ -155,7 +265,7 @@
                                             </div>
 
                                         </div>
-                                         <hr>
+                                        <hr>
                                         <div style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; " class="row">
                                             <div class="col">
                                                 <p>DERIVATIONS</p>
@@ -375,6 +485,20 @@
 
                                         </div>
                                         <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #8dff90, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p>Hydrocarbon Notes</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="https://photos.app.goo.gl/d2y2Jeer9woM2n4G7">
+                                                    <button class="btn btn-primary">Download</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
 
 
                                         <!-- Chapter 1: Some Basic Concepts of Chemistry -->
@@ -556,36 +680,451 @@
 
                             <div class="tab-pane fade" id="biology" role="tabpanel" aria-labelledby="biology-tab">
                                 <h3>Biology Notes</h3>
-                                <p>Here you will find all the Biology notes.</p>
-                                <p>Coming sooon</p>
+                                <div class="card">
+                                    <div class="card-header">Notes And Questions answers</div>
+                                    <div class="card-body">
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 1- Living beings </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp- 1 Living world.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 1.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 1.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                        <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 2- Biological Classification </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -2 Biological Classification.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 2.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 2.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 3- Plant kingdom </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -3 Plant kingdom.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 3.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 3.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 4- Animal kingdom </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -4 Animal kingdom.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 4.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 4.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 5- Morphology of flowering plants</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -5 Morphology of flowering plants.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 5.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 5.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 6- Anatomy of flowering plants</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -6 Anatomy of fowering plants.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 6.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 6.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 7- Structural organisation in animals</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -7 Structural organisation in animals.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 7.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 7.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 8- Cell the unit of life</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -8 Cell the unit of life.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 8.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 8.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 9- Biomolecules</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -9 Biomolecules.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 9.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 9.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 10-Cell cycle and cell divisiion</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -10 Cell cycle and cell divisiion.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 10.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 10.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 11- Photosynthesis in higher plants </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -11 Photosynthesis in higher plants.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 11.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 11.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 12- Respiration in plants </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -12 Respiration in plants.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 12.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 12.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 13- Plants growth and development </p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -13 Plant growth and development.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 13.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 13.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 14- Breathing and exchange of gases</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -14 Breathing and exchange of gases.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Very short Bio Chp 14.pdf">
+                                                    <button class="btn btn-primary">Download Very short Q/A</button>
+
+                                                </a>
+                                                <a href="Biology 2023-24 11/Question answer/Short Bio Chp 14.pdf">
+                                                    <button class="btn btn-primary">Download Short Q/A</button>
+
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 15- Body fluids and circulation</p>
+                                                <p style="color: red;">Not Available</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="Biology 2023-24 11/Chp -15 Body fluids and circulation.pdf">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 16- Excretory Products and their Elimination</p>
+                                                <p style="color: red;">Not Available</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="https://photos.app.goo.gl/GT4B4WVkqEr56QEj6">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
+                                        <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 17- Locomotion and Movement</p>
+                                                <p style="color: red;">Not Available</p>
+
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="https://photos.app.goo.gl/GT4B4WVkqEr56QEj6">
+                                                    <button class="btn btn-primary">Download Notes</button>
+
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
+                                        <hr>
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 18- Neural Control and Coordination</p>
+                                                <p style="color: red;">Not Available</p>
+
+                                            </div>
+
+
+                                        </div>
+                                        <hr>
+
+
+                                        <div class="row" style="font-size: 12px; background: linear-gradient(135deg, #f5adad, #c8c8c8); border-radius: 9px; padding:5px; padding-top: 9px; ">
+                                            <div class="col">
+                                                <p> Chapter 19- Chemical Control and Coordination</p>
+                                                <p style="color: red;">Not Available</p>
+
+                                            </div>
+
+
+                                        </div>
+                                        <hr>
+
+
+
+
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>&copy; 2024 Notes Downloader</p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="social-links ">
-                            <a href=""><img width="40px" style="padding-left:10px;" src="fb.png" alt=""></a>
-                            <a href=""><img width=40px style="padding-left: 10px;" src="ig.png" alt=""></a>
-                            <a href=""><img width=40px style="padding-left: 10px;" src="wp.png" alt=""></a>
-                            <a href=""><img width=40px style="padding-left: 10px;" src="web.png" alt=""></a>
+
+                <footer class="footer py-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>&copy; 2024 Notes Downloader</p>
+                                <p>Made with 💖by MGHacker</p>
+                                <p>Last updated - 24/Feb/2024</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="social-links ">
+
+                                    <a href="https://www.instagram.com/optimistic__thunder/"><img width=40px style="padding-left: 10px;" src="ig.png" alt=""></a>
+                                    <a href="https://wa.me/+917800171651"><img width=40px style="padding-left: 10px;" src="wp.png" alt=""></a>
+                                    <a href="https://hackdevs.netlify.app"><img width=40px style="padding-left: 10px;" src="web.png" alt=""></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </footer>
             </div>
-        </footer>
-    </div>
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <!-- Bootstrap JS and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 
